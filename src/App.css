@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f3f3f3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+*:focus{
+    outline: none;
+}
+
+ul{
+    list-style-type: none;
+    height: 100%;
+}
+
+ul li{
+    height: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.main-container{
+    text-align: center;
+    margin-top: 1rem !important;
+}
+
+.main-container form input{
+    width: 250px;
+    height: 40px;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-container form button{
+    height: 40px;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem !important;
+}
+
+.todo-wrap{
+    width: 70%;
+    height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.icon{
+    font-size: 2.5rem;
+    color: red;
+    cursor: pointer;
+}
+
+.todo-card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo-card h2{
+    flex: 50%;
+}
+
+.icon-keeper{
+    flex: 50%;
+}
